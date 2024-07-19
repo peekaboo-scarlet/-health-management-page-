@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>智能健康管理师 - Eva</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+        }
+        .container {
+            max-width: 600px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .info-card {
+            background-color: white;
+            border-radius: 10px;
+            padding: 20px;
+            text-align: center;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .avatar {
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+            margin-bottom: 10px;
+        }
+        .name {
+            font-size: 24px;
+            font-weight: bold;
+            margin-bottom: 5px;
+        }
+        .title, .company {
+            color: #666;
+            margin-bottom: 5px;
+        }
+        .buttons {
+            margin-top: 20px;
+        }
+        .btn {
+            background-color: #4a90e2;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 20px;
+            margin: 0 10px;
+            cursor: pointer;
+        }
+        .quick-links {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+        }
+        .link-item {
+            text-align: center;
+        }
+        .link-item img {
+            width: 40px;
+            height: 40px;
+        }
+        .articles {
+            margin-top: 20px;
+        }
+        .article {
+            background-color: white;
+            border-radius: 10px;
+            padding: 15px;
+            margin-bottom: 15px;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+        .article-date {
+            color: #999;
+            font-size: 14px;
+        }
+        .article-title {
+            margin-top: 5px;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="info-card">
+            <img src="https://example.com/path-to-avatar.jpg" alt="Eva" class="avatar">
+            <h1 class="name">Eva</h1>
+            <p class="title">智能健康管理师</p>
+            <p class="company">广东健康科技有限公司</p>
+            <div class="buttons">
+                <button class="btn">健康咨询</button>
+                <button class="btn">视频通话</button>
+            </div>
+        </div>
+
+        <div class="quick-links">
+            <div class="link-item">
+                <img src="https://example.com/path-to-icon1.png" alt="公众号">
+                <p>公众号</p>
+            </div>
+            <div class="link-item">
+                <img src="https://example.com/path-to-icon2.png" alt="小程序">
+                <p>小程序</p>
+            </div>
+            <div class="link-item">
+                <img src="https://example.com/path-to-icon3.png" alt="加我微信">
+                <p>加我微信</p>
+            </div>
+            <div class="link-item">
+                <img src="https://example.com/path-to-icon4.png" alt="地址">
+                <p>地址</p>
+            </div>
+        </div>
+
+        <div class="articles">
+            <div class="article">
+                <p class="article-date">2024年05月16日</p>
+                <h2 class="article-title">登革热来袭，防蚊是关键！发热要关注，健康来守护！</h2>
+            </div>
+            <div class="article">
+                <p class="article-date">2024年04月30日</p>
+                <h2 class="article-title">居家监测体温，也要及时侧睡</h2>
+            </div>
+            <!-- 可以添加更多文章 -->
+        </div>
+    </div>
+
+    <script>
+        // 可以在这里添加一些交互逻辑
+        document.querySelectorAll('.btn').forEach(button => {
+            button.addEventListener('click', function() {
+                alert('功能正在开发中，敬请期待！');
+            });
+        });
+    </script>
+</body>
+</html>
